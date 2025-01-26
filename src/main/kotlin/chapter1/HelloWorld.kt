@@ -1,4 +1,4 @@
-/* This is a multiline comment
+package chapter1/* This is a multiline comment
    used for providing useful tips or reminders. */
 
 /**
