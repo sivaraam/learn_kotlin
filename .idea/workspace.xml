@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77001446-a744-4135-9a5f-2f6b803a015f" name="Changes" comment="ch1: add programs on string and nullazbility" />
+    <list default="true" id="77001446-a744-4135-9a5f-2f6b803a015f" name="Changes" comment="ch1: refactor file names to clearly capture order">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter1/6_ForLoops.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter1/7_NestedForLoops.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter1/8_WhileLoop.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter1/excercises/2_Palindrom.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter1/excercises/2_PrintStarPattern.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,21 +65,32 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Gradle.Build learn_kotlin.executor": "Run",
+    "Kotlin.EligibleToVoteKt.executor": "Run",
+    "Kotlin.EligibleToVoteWhenKt.executor": "Run",
     "Kotlin.HelloWorldKt.executor": "Run",
     "Kotlin.NullAndNullableKt.executor": "Run",
     "Kotlin.StringFunKt.executor": "Run",
     "Kotlin.TypeInferenceKt.executor": "Run",
+    "Kotlin.WhenStatementKt.executor": "Run",
+    "Kotlin._2_PrintStarPatternKt.executor": "Run",
+    "Kotlin._6_LoopsKt.executor": "Run",
+    "Kotlin._7_NestedLoopsKt.executor": "Run",
+    "Kotlin._8_WhileLoopKt.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/mnt/d/kaartic/learn_kotlin/src/main/kotlin/chapter1/excercises",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/kotlin/chapter1/excercises" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/kotlin/chapter1" />
       <recent name="$PROJECT_DIR$" />
@@ -81,30 +99,37 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.NullAndNullableKt">
-    <configuration name="HelloWorldKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter1.HelloWorldKt" />
+  <component name="RunManager" selected="Kotlin._2_PrintStarPatternKt">
+    <configuration name="_1_EligibleToVoteWhenKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter1.excercises._1_EligibleToVoteWhenKt" />
       <module name="learn_kotlin.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NullAndNullableKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter1.NullAndNullableKt" />
+    <configuration name="_2_PrintStarPatternKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter1.excercises._2_PrintStarPatternKt" />
       <module name="learn_kotlin.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringConcatKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter1.StringConcatKt" />
+    <configuration name="_6_ForLoopsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter1._6_ForLoopsKt" />
       <module name="learn_kotlin.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TypeInferenceKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter1.TypeInferenceKt" />
+    <configuration name="_7_NestedForLoopsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter1._7_NestedForLoopsKt" />
+      <module name="learn_kotlin.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_8_WhileLoopKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter1._8_WhileLoopKt" />
       <module name="learn_kotlin.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -112,10 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.NullAndNullableKt" />
-        <item itemvalue="Kotlin.StringConcatKt" />
-        <item itemvalue="Kotlin.TypeInferenceKt" />
-        <item itemvalue="Kotlin.HelloWorldKt" />
+        <item itemvalue="Kotlin._2_PrintStarPatternKt" />
+        <item itemvalue="Kotlin._8_WhileLoopKt" />
+        <item itemvalue="Kotlin._7_NestedForLoopsKt" />
+        <item itemvalue="Kotlin._6_ForLoopsKt" />
+        <item itemvalue="Kotlin._1_EligibleToVoteWhenKt" />
       </list>
     </recent_temporary>
   </component>
@@ -144,11 +170,38 @@
       <option name="project" value="LOCAL" />
       <updated>1738000120818</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ch1: add workout programs for when statement">
+      <option name="closed" value="true" />
+      <created>1738510771043</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1738510771043</updated>
+    </task>
+    <task id="LOCAL-00004" summary="ch1: add voter eligibility exercise solutions">
+      <option name="closed" value="true" />
+      <created>1738516780218</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1738516780218</updated>
+    </task>
+    <task id="LOCAL-00005" summary="ch1: refactor file names to clearly capture order">
+      <option name="closed" value="true" />
+      <created>1738517154928</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1738517154928</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ch1: add programs on string and nullability" />
-    <option name="LAST_COMMIT_MESSAGE" value="ch1: add programs on string and nullability" />
+    <MESSAGE value="ch1: add workout programs for when statement" />
+    <MESSAGE value="ch1: add voter eligibility exercise solutions" />
+    <MESSAGE value="ch1: refactor file names to clearly capture order" />
+    <option name="LAST_COMMIT_MESSAGE" value="ch1: refactor file names to clearly capture order" />
   </component>
 </project>
