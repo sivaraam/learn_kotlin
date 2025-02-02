@@ -1,7 +1,5 @@
 package chapter1
 
-import kotlin.reflect.typeOf
-
 val regularInt = 42
 val floatNumber = 3.14f
 val longNumber = 123456789L
